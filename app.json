@@ -1,0 +1,21 @@
+{
+  "name": "chiwawa-bot",
+  "description": "知話輪を使ったチャットボットのサンプル・アプリケーション",
+  "keywords": [
+    "chiwawa"
+  ],
+  "repository": "https://github.com/stakahashi-da/chiwawa-bot.git",
+  "env": {
+    "HUBOT_HEROKU_KEEPALIVE_INTERVAL": {
+      "description": "hubot-heroku-keepalive interval.",
+      "value": ""
+    },
+    "HUBOT_HEROKU_KEEPALIVE_URL": {
+      "description": "hubot-heroku-keepalive URL.",
+      "value": ""
+    }
+  },
+  "addons": [
+    "heroku-redis:hobby-dev"
+  ]
+}
